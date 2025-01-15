@@ -59,11 +59,11 @@ class _QuestionScreenState extends State<QuestionScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: PreferredSize(
-        preferredSize: Size.fromHeight(100.0), // Augmentez la hauteur ici
+        preferredSize: Size.fromHeight(80.0), // Augmentez la hauteur ici
         child: AppBar(
           title: Row(
             children: [
-              Image.asset('lib/assets/images/icon.png', height: 30,), // Ajoutez votre icône ici
+              Image.asset('lib/assets/images/icon.png', height: 70,), // Ajoutez votre icône ici
               const SizedBox(width: 10), // Espace entre l'icône et le titre
               const Text(
                 "Test de Personnalité",
@@ -130,7 +130,7 @@ class _QuestionScreenState extends State<QuestionScreen> {
                 style: TextStyle(
                   fontSize: 28.0,
                   color: Color.fromARGB(255, 12, 115, 199), 
-                  fontWeight: FontWeight.bold
+                  fontWeight: FontWeight.bold,
                 ),
               ),
             
