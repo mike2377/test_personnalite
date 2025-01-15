@@ -59,7 +59,7 @@ class _QuestionScreenState extends State<QuestionScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: PreferredSize(
-        preferredSize: Size.fromHeight(80.0), // Augmentez la hauteur ici
+        preferredSize: const Size.fromHeight(80.0), // Augmentez la hauteur ici
         child: AppBar(
           title: Row(
             children: [
@@ -84,7 +84,7 @@ class _QuestionScreenState extends State<QuestionScreen> {
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
             Text(
-                "${serveurQuestion.getText()}",
+                serveurQuestion.getText(),
                 textAlign: TextAlign.center,
                 style: const TextStyle(
                     fontSize: 30.0, fontWeight: FontWeight.bold),

@@ -1,7 +1,7 @@
 import 'package:test_personnalite/models/trait.dart';
 
 class TraitPersonnalite {
-  int _indexTrait = 0;
+  final int _indexTrait = 0;
   List<Trait> traits = [
 
     Trait(
