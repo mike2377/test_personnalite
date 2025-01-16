@@ -1,4 +1,4 @@
-import 'package:test_personnalite/services/trait_pers.dart';
+import 'package:Test_Personnalite/services/trait_pers.dart';
 
 class CalculResultat {
   final TraitPersonnalite traitPersonnalite = TraitPersonnalite();

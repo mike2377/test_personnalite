@@ -1,5 +1,5 @@
 
-import 'package:test_personnalite/models/trait.dart';
+import 'package:Test_Personnalite/models/trait.dart';
 
 class TraitPersonnalite {
   final int _indexTrait = 0;

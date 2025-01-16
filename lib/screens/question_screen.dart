@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:test_personnalite/models/question.dart';
-import 'package:test_personnalite/screens/result_screen.dart';
-import 'package:test_personnalite/services/resultat_service.dart';
-import 'package:test_personnalite/services/serveur_question.dart';
+import 'package:Test_Personnalite/models/question.dart';
+import 'package:Test_Personnalite/screens/result_screen.dart';
+import 'package:Test_Personnalite/services/resultat_service.dart';
+import 'package:Test_Personnalite/services/serveur_question.dart';
 
 class QuestionScreen extends StatefulWidget {
   const QuestionScreen({super.key});
@@ -126,7 +126,7 @@ class _QuestionScreenState extends State<QuestionScreen> {
               maxLines: 1,
               overflow: TextOverflow.ellipsis,
               softWrap: true,
-              style: TextStyle(
+              style: const TextStyle(
                 fontSize: 28.0,
                 color: Color.fromARGB(255, 12, 115, 199),
                 fontWeight: FontWeight.bold,
