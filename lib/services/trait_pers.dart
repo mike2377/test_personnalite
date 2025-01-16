@@ -1,3 +1,4 @@
+
 import 'package:test_personnalite/models/trait.dart';
 
 class TraitPersonnalite {
