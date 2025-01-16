@@ -1,3 +1,5 @@
+import 'dart:ui';
+
 import 'package:flutter/material.dart';
 
 class ResultatScreen extends StatelessWidget {
@@ -30,11 +32,13 @@ class ResultatScreen extends StatelessWidget {
         padding: const EdgeInsets.all(15.0),
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
+          crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             Text(
               "Votre Score : $score",
               style: const TextStyle(
                 fontSize: 28.0,
+                color: Color.fromARGB(255, 21, 101, 192),
                 fontWeight: FontWeight.bold,
               ),
             ),
@@ -44,6 +48,8 @@ class ResultatScreen extends StatelessWidget {
               textAlign: TextAlign.center,
               style: const TextStyle(
                 fontSize: 24.0,
+                color: Color.fromARGB(255, 21, 101, 192),
+                fontWeight: FontWeight.bold,
               ),
             ),
             const SizedBox(height: 40),
